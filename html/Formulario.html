@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Formulario </title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<section class="encabezado-pricipal" >
+				<section class="encabezado principal" >
+					<section class="soporte-cliente" >
+						<div class="audifonos">
+							<img src="../img/headset-solid.svg" class="cliente" alt="">
+						</div>
+						
+						<div class="soporte-cliente-texto">
+							<p class="text">Soporte al cliente</p>
+							<p class="number">123-456-7890</p>
+						</div>
+					</section>
+
+					<section class="encabezado-logo" >
+						<img src="../img/shoe-prints-solid.svg" alt="">
+							<h1 class="logo">
+								<a href="/" >sneakers</a>
+							</h1>
+					</section>
+
+					<section class="encabezado-user" >
+						<img src="../img/user-solid.svg" alt="">
+						<img src="../img/basket-shopping-solid.svg" alt="">
+						
+						<div class="encabezado-canasta-compras " >
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</section>
+
+				</section>
+			</section>
+
+			<section class="encabezado-nav" >
+				<nav class="nav encabezado" >
+					<ul class="menu" >
+						<li ><a href="index.html">Inicio</a></li>
+						<li ><a href="blog.html">Nosotros</a></li>
+						<li ><a href="producto.html">Productos</a></li>
+						<li ><a href="Formulario.html">Registro</a></li>
+					</ul>
+
+					<form class="busqueda-1" >
+						<input type="search" placeholder="Buscar zapatos" />
+						<button class="btn-busqueda" >
+							<img src="../img/magnifying-glass-solid.svg" alt="">
+							
+						</button>
+					</form>
+				</nav>
+			</section>
+		</header>
+
+		<section class="formulario">
+            <div class="formulario-container">
+              <h2>Registro de Usuario</h2>
+              <form action="Formulario.php" method="POST" enctype="multipart/form-data">
+                <!-- Datos personales -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+          
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+          
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+          
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+          
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+          
+            
+          
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero" required>
+                  <option value="hombre">Hombre</option>
+                  <option value="mujer">Mujer</option>
+                </select>
+             
+                <label for="categoria">Categoría de compra:</label>
+                <select id="categoria" name="categoria" required>
+                  <option value="nike">Nike</option>
+                  <option value="jordan">Jordan</option>
+                </select>
+                <label for="numero_calzado">Número de Calzado:</label>
+                <input type="text" id="numero_calzado" name="numero_calzado" required>
+             
+                
+                <label for="referencia">¿Cómo conoció la tienda?</label>
+                <select id="referencia" name="referencia">
+                    <option value="online">Publicidad en línea</option>
+                    <option value="redes_sociales">Redes Sociales</option>
+                    <option value="recomendacion">Recomendación de amigos</option>
+                    
+                </select>
+                <label for="foto">Subir foto del zapato comprado:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+           
+              
+          
+          
+                <!-- Botón de enviar -->
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </section>
+          
+
+	
+
+			
+
+				<footer class="footer">
+			
+						
+							<table class="copyright">
+								<td><p>Desarrollado por  Jeanhela Nazate, Diego Ponce &copy; 2023</p></td>
+								<td><img src="../img/payment.png" class="PagosImagenes" alt="Pagos"></td>
+								
+							</table>
+							
+							
+						
+					
+				</footer>
+	
+
+	</body>
+</html>
