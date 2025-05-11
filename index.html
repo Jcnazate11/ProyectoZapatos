@@ -1,39 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="styleslogin.css" />
-    
-</head>
-<body>
-    <section class="wrapper">
-        <form action="login.php" method="post"> 
-            <h1>Login</h1>
-            <div class="input-box">
-                
-                <input type="text" name="username" placeholder="Usuario" required>
-            </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Sneakers </title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<section class="encabezado-pricipal" >
+				<section class="encabezado principal" >
+					<section class="soporte-cliente" >
+						<div class="audifonos">
+							<img src="../img/headset-solid.svg" class="cliente" alt="">
+						</div>
+						
+						<div class="soporte-cliente-texto">
+							<p class="text">Soporte al cliente</p>
+							<p class="number">123-456-7890</p>
+						</div>
+					</section>
 
-            <div class="input-box">
-               
-                <input type="password" name="password" placeholder="Contraseña" required>
-            </div>
+					<section class="encabezado-logo" >
+						<img src="../img/shoe-prints-solid.svg" alt="">
+							<h1 class="logo">
+								<a href="/" >sneakers</a>
+							</h1>
+					</section>
 
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox"> Recuérdame
-                </label>
-                <a href="#">¿No recuerdas tu contraseña?</a>
-            </div>
-            <button type="submit" class="btn">Ingresar</button>
+					<section class="encabezado-user" >
+						<img src="../img/user-solid.svg" alt="">
+						<img src="../img/basket-shopping-solid.svg" alt="">
+						
+						<div class="encabezado-canasta-compras " >
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</section>
 
-            <div class="register-link">
-                <p>¿Aún no tienes una cuenta? <a href="#">Regístrate</a></p>
-            </div>
-        </form>
-    </section>
-</body>
+				</section>
+			</section>
+
+			<section class="encabezado-nav" >
+				<nav class="nav encabezado" >
+					<ul class="menu" >
+						<li ><a href="index.html">Inicio</a></li>
+						<li ><a href="blog.html">Nosotros</a></li>
+						<li ><a href="producto.html">Productos</a></li>
+						<li ><a href="Formulario.html">Registro</a></li>
+					</ul>
+
+					<form class="busqueda-1" >
+						<input type="search" placeholder="Buscar zapatos" />
+						<button class="btn-busqueda" >
+							<img src="../img/magnifying-glass-solid.svg" alt="">
+							
+						</button>
+					</form>
+				</nav>
+			</section>
+		</header>
+
+		<section class="imagen-principal" >
+			<div class="contenido-principal " >
+				
+			</div>
+		</section>
+
+		<main class="main-content" >
+			<section class="container container-features" >
+				<section class="tarjetas">
+					<img src="../img/cart-shopping-solid.svg" class="carrito"  alt="" >
+					
+					<div class="tarjetas-Contenido">
+						<span>Envío gratuito a nivel nacional</span>
+						<p>En pedido superior a $150</p>
+					</div>
+				</section>
+
+				<section class="tarjetas">
+					<img src="../img/money-bill-transfer-solid.svg" class="dinero" alt="" >
+					<div class="tarjetas-Contenido">
+						<span>Reembolso</span>
+						<p>100% garantía, si el producto es dañado</p>
+					</div>
+				</section>
+
+				<section class="tarjetas">
+					<img src="../img/gift-solid.svg"  class="regalo" alt="" >
+					<div class="tarjetas-Contenido">
+						<span>Ofertas especiales</span>
+						<p>Ofrece ofertas especiales </p>
+					</div>
+				</section>
+
+				<section class="tarjetas">
+					<img src="../img/headphones-solid.svg" class="audifonos" alt="" >
+					<div class="tarjetas-Contenido">
+						<span>Servicio al cliente 24/7</span>
+						<p>LLámenos 24/7 al 123-456-7890</p>
+					</div>
+				</section>
+			</main>
+
+				<footer class="footer">
+			
+						
+							<table class="copyright">
+								<td><p>Desarrollado por  Jeanhela Nazate, Diego Ponce &copy; 2023</p></td>
+								<td><img src="../img/payment.png" class="PagosImagenes" alt="Pagos"></td>
+								
+							</table>
+							
+							
+						
+					
+				</footer>
+	
+
+	</body>
 </html>
